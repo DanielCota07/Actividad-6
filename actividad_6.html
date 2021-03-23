@@ -7,17 +7,18 @@
     <title>Document</title>
 </head>
 <body>
-    <img src="D:\Users\dan_2\OneDrive\Desktop\git\JavaScript\Actividad 6\focoOff.png" id="foco" onclick="cambiarImagen();">
+    <img src="Imagenes/focoOff.png" id="foco" onclick="cambiarImagen();">
+
     <script>
         function cambiarImagen ()
         {
             let foco=document.getElementById("foco")
             if(foco.src.match('focoOff'))
             {
-                foco.src="D:\Users\dan_2\OneDrive\Desktop\git\JavaScript\Actividad 6\focoOff.png"
+                foco.src="Imagenes/focoOn.png"
             } else
             {
-                foco.src="D:\Users\dan_2\OneDrive\Desktop\git\JavaScript\Actividad 6\focoOn.png"
+                foco.src="Imagenes/focoOff.png"
             }
         }
     </script>
